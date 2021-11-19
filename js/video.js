@@ -12,6 +12,8 @@ window.addEventListener("load", function() {
 document.querySelector("#play").addEventListener("click", function() {
 	console.log("Play Video");
 	video.play();
+
+	document.querySelector("#volume").innerHTML=this.value+"%"
 	
 });
 
@@ -48,7 +50,7 @@ document.querySelector("#slower").addEventListener("click", function(){
 
 document.querySelector("#skip").addEventListener("click",function(){
 	console.log("Jumped ahead");
-	video.currentTime *=5;
+	video.currentTime +=15;
 	console.log(video.currentTime)
 
 
@@ -86,6 +88,43 @@ document.querySelector("#mute").addEventListener("click", function(){
 	  console.log(video.muted);
 
 });
+
+
+document.querySelector("#vintage").addEventListener("click", function(){
+	console.log("old school styled applied")
+	video.classList.add("oldSchool")
+
+
+})
+
+document.querySelector("#orig").addEventListener("click", function(){
+	console.log("original styled applied")
+	video.classList.remove("oldSchool")
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
