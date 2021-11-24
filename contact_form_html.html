@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Contact form 
+    </title>
+
+    <link href="css/form_style.css" rel="stylesheet">
+
+
+</head>
+
+<form action ="#" method="get" id="contact_info"></form>
+<body>
+    <fieldset>
+        <legend> Your details  </legend>
+        <ol>
+            <li>
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="First and last name">
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" value="example@domain.com" required>
+			</li>
+			<li>
+				<label for="email2">Confirm Email</label>
+				<input id="email2" name="email" type="email" value="example@domain.com" required>
+			</li>
+			<li>
+				<label for="phone">Phone</label>
+				<input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd" id="phone">
+            </li>
+
+        </ol>
+        </fieldset>
+        <input type = "checkbox" id = "useSame"><label for="useSame">Put in your address below</label>
+        <fieldset>
+            <legend> Street Address</legend>
+            <ol>
+                <li>
+                    <label> Street Address: <input type = "text" name = "b-street" placeholder = "123 Main St" id="b-street"></label></li>
+                
+                <li>
+                     <label> City: <input type = "text" name = "b-city" placeholder = "Ann Arbor"></label> </li>
+         
+                 <li>
+                     <label>State: <select class="form-control bfh-states" data-country="US" data-state="MI" required name = b-city></select></label></li>
+         
+                 <li>
+                     
+                     <label> Zip <input type="text" pattern="[0-9]{5}" name="b-zip"></label></li> 
+    
+                 <li>
+                    <label for="country">Country</label>
+                    <select id="country" class="bfh-countries" data-country="US" required></select>
+                </li>
+             </ol>
+        </fieldset>
+        
+
+
+
+
+
+
+
+
+
+
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+    <script src="javascript_file/js_form.js"></script>
+
+
+
+
+    <fieldset>
+        <button type="submit"> submit</button>
+    </fieldset>
+
+
+
+
+</body>
+</html>
+
+

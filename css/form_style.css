@@ -1,0 +1,60 @@
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;}
+
+
+    body
+    {background-color: rgb(110, 109, 109);
+    background-image:url("..//images/concrete_image.jpg") ;
+        color:rgb(7, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    color: white;}
+    
+
+
+
+
+    form{
+        
+        -moz-border-radius: 2%;
+        -webkit-border-radius: 2%;
+        border-radius: 2%;
+        padding: 10%;
+        width: 60%;}
+/* 
+    fieldset{background-color: red;} */
+
+
+    form ol li {
+        background: #b9cf6a;
+        background: rgba(255,255,255,.3);
+        border-color: #e3ebc3;
+        border-color: rgba(255,255,255,.6);
+        border-style: solid;
+        border-width: .5%;
+        -moz-border-radius: 2%;
+        -webkit-border-radius: 2%;
+        border-radius: 2%;	padding: 1% 2%;
+        margin-bottom: .5%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,49 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>JavaScript Video Controls</title>
-	<link rel="stylesheet" type="text/css" href="css/video.css">
-	<!-- <link rel="JavaScript" type="js" href="video.js"> -->
-	
-</head>
-<body> 
-<main>
-	<h1>JavaScript Video Controls</h1>
-	<div class = "options">
-		<button  id = "play">Play Video</button>
-		<button  id = "pause">Pause Video</button>
-		<button  id = "slower">Slow Down</button>
-		<button  id = "faster">Speed Up</button>
-		<button  id = "skip">Skip Ahead</button>
-	</div>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="icon" href="background.jpg">-->
+		<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Welcome to Kendrick real estate Management webpage</title> <!--subject to change-->
+	</head>
+	<body>
+		<!-- <a class = "skip">Skip to Main Content</a> -->
+		<header>
+			<!-- <img src = "K_logo_2.jpeg" alt="" id="logo"> -->
+			<nav>
+				<ul class="nav_links">
+					<li class="nav_item"><a href="index.html">Home</a></li>
+					<li class="nav_item"><a href="about_us.html">About Us</a></li>
+					<li class="nav_item"><a href="Contact.html">Contact</a></li>
+					<li class="nav_item"><a href="Properties.html">Properties</a></li>
+				</ul>
 
-	<figure>
 
-		<video class = "video" 
-			autoplay="false" 
-			width="640" 
-			height="360" 
-			id="player1" 
-			preload="none"
-			src="assets/marchingband.mov" />
-			  
-		    <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions">	
-		  		Your browser does not support HTML5 video.
-		</video>
-		<figcaption>[The Michigan Marching Band]</figcaption>
-		</figure> 
-	<button id="mute">Mute</button><br>
+		</nav>
 
-	<label for="slider">Volume</label>: 0 <input type="range" id="slider" min="0" max="100" value="100" step="10"> 100%<br>
-	<div>Volume is: <span id = "volume"> </span><br><br></div>
+	</header>
+	<main class="main page" >
+		<h1>Kendricks Real Estate Management </h1>
 
-	<button id = "vintage">Old School</button>
-	<button id = "orig">Original</button>
+		 <!--figure out later-->
 
-	<p>Video courtesy of Allison Sweet.</p>
+		<h2>Your local real estate firm </h2>
+		<section id="MP">
+           
+                <p id= "Intro">We are a company passionate in real estate with new ideas and a bright future we are here to help you sell or buy properties in the metro detroit area.</p>
+			
+				<div class="detroit" id="det_content">
+				<img src= "images/detroit_area_image.jpeg" alt="Detroit" id="detriot_pic">
 
-</main>
-	<script src="js/video.js"></script>
-</body> 
+			</div>
+
+
+				<p id="Intro">We are also availible is these areas:</p>
+
+
+			<div class="oak_park" id="OP_content">
+				<p>Oak Park</p>
+				<img src="images/op_img.jpeg" alt="Oak Park" id="oak_park_pic">
+			</div>
+
+
+			<div class="southfield" id="sf_content">
+				<p>Southfield</p>
+				<img src="images/sf_pic.jpeg" alt="Southfield" id="Southfield_pic">
+
+			</div>
+
+
+
+		</section>
+
+
+
+
+
+
+    </main>        
+	`<footer>
+		<p>Kendricks Real Estate Management llc</p>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
 </html>
+
+
+
+
+
+
+
+
+				
